@@ -12,7 +12,6 @@ public class Farola {
      * Crear una farola. Debe inicializarla como apagada
      */
     public Farola () {
-        this.state = false;
         neighborhood = new LinkedList<>();
     }
 
