@@ -11,6 +11,8 @@ public class Cuadrado {
         this.area = Math.pow(lado, 2);
     }
 
+    public Cuadrado() {}
+
     public double getLado() {
         return lado;
     }

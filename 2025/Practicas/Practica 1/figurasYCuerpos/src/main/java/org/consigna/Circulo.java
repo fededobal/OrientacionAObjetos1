@@ -13,6 +13,8 @@ public class Circulo {
         this.area = Math.PI * Math.pow(this.radio, 2);
     }
 
+    public Circulo() {}
+
     public double getDiametro() {
         return diametro;
     }
