@@ -21,7 +21,7 @@ public class Farola {
     public void pairWithNeighbor(Farola otraFarola) {
         if(otraFarola != null && !this.neighborhood.contains(otraFarola)) {
             this.neighborhood.add(otraFarola);
-            otraFarola.getNeighbors().add(this);
+            otraFarola.pairWithNeighbor(this);
         }
     }
 
